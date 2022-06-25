@@ -99,7 +99,7 @@ p {
   color: var(--accent);
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 375px) {
   main {
     all: unset;
     display: flex;
