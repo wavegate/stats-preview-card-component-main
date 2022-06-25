@@ -101,11 +101,15 @@ p {
 
 @media only screen and (max-width: 1440px) {
   main {
-    transform: translate(-50%, 0%);
-    top: 50px;
+    all: unset;
+    display: flex;
     flex-direction: column;
     width: 327px;
     height: 780px;
+    background-color: var(--cardBackground);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 50px auto;
   }
 
   #textSection {
